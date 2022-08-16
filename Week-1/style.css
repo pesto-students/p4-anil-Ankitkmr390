@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+}
+.sidemenu{
+    width: 50px;
+    background: #f0f0f0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;    
+    overflow: hidden;
+}
+.sidemenu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.sidemenu ul li{
+    width: 50px;
+    height: calc(100% / 8);
+    color: #787878;
+    line-height: 6.5;
+    text-align: center;
+}
+
+.header{
+    width: calc(100% - 50px);
+    position: relative;
+    background-color: #454545;
+    padding: 20px;
+    margin-left: 50px;
+    float: left;
+}
+
+.logo{
+    float: left;    
+}
+
+.logo img{
+    float: left;
+}
+
+.logo-content{
+    float: left;
+    margin-left: 20px;
+    color: #fff;
+}
+.logo-content h1{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.logo-content p{
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.iconList{
+    float: left;
+    margin-top: 142px;
+    width: 50%;
+    margin-left: 20px;
+}
+.iconList ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.iconList ul li{
+    float: left;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.table{
+    width: calc(100% - 70px);
+    float: left;
+    margin-left: 70px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+tbody tr:nth-child(even){
+    background-color: #f0f0f0;
+}
+
+tbody tr td{
+    padding: 10px;    
+}
+
+tbody tr td a{
+    text-decoration: none;
+    border: 1px solid #787878;
+    padding: 5px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #43689B;
+    height: 80px;
+}
+
+.footer-logo{
+    float: left;
+    width: 100%;
+}
+
+.footer-logo img{
+    float: left;
+    width: 80px;
+}
+
+.footer-logo .iconList{
+    margin-top: 0;
+    float: right;
+    width: 65%;
+}
+.footer-logo .iconList li{
+    width: calc(100% / 5);
+    margin-right: 0;
+    line-height: 80px;
+}
+
+@media screen and (max-width: 1366px) {
+    .sidemenu ul li{
+        line-height: 4;
+    }
+}
